@@ -1,0 +1,17 @@
+::-webkit-scrollbar {width:6px;height:3px;}
+::-webkit-scrollbar-button {background-color:rgba(48,48,48,1);}
+::-webkit-scrollbar-track {background: #FF5757;
+background: -webkit-linear-gradient(top left, #FF5757, #EE3737);
+background: -moz-linear-gradient(top left, #FF5757, #EE3737);
+background: linear-gradient(to bottom right, #FF5757, #EE3737);}
+::-webkit-scrollbar-track-piece {background-color:rgba(100,96,96,1);}
+::-webkit-scrollbar-thumb {height:50px; background: #FF5757;}
+::-webkit-scrollbar-corner {background-color:rgba(238,238,238,1);}
+::-webkit-resizer {background-color:rgba(166,166,166,1);}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FF5757;
+background: -webkit-linear-gradient(top left, #EE3737, #FF5757);
+background: -moz-linear-gradient(top left, #EE3737, #FF5757);
+background: linear-gradient(to bottom right, #EE3737, #FF5757);
+}

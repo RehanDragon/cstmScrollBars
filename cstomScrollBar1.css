@@ -15,3 +15,14 @@ background: -webkit-linear-gradient(top left, #EE3737, #FF5757);
 background: -moz-linear-gradient(top left, #EE3737, #FF5757);
 background: linear-gradient(to bottom right, #EE3737, #FF5757);
 }
+
+/*MOZILLA STORE*/
+/* overflow-y:scroll;
+scrollbar-color:#8276f1 #f9f9f9;
+scrollbar-width:thin; */
+@supports (scrollbar-color: red blue){
+  *{
+    scrollbar-color:#8276f1 #f9f9f9;
+    scrollbar-width:thin;
+  }
+}

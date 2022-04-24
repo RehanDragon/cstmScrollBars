@@ -58,3 +58,27 @@ background: -moz-linear-gradient(top left, #645cbc, #8a28ed);
 background: linear-gradient(to bottom right, #645cbc, #8a28ed);
 }
 
+/* style three you can define height to dandyian */
+
+
+
+::-webkit-scrollbar {width:10px;height:3px;}
+/* aupar nicha ke dandiyan */
+::-webkit-scrollbar-button {background-color:#645cbc; border-radius:5px; height:130px}
+::-webkit-scrollbar-button:hover {background-color:#494949;}
+/* aupar nicha ke dandiyan */
+::-webkit-scrollbar-track {background: #f9f9f9;
+background: -webkit-linear-gradient(top left, #8a28ed, #645cbc);
+background: -moz-linear-gradient(top left, #8a28ed, #645cbc);
+background: linear-gradient(to bottom right, #8a28ed, #645cbc);}
+::-webkit-scrollbar-track-piece {background: #f9f9f9;  }
+::-webkit-scrollbar-thumb {height:50px; background: #8a28ed; border-radius: 10px;}
+::-webkit-scrollbar-corner { height:50px; background: #645cbc; border-radius: 10px;}
+::-webkit-resizer {background: #645cbc;}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8a28ed;
+background: -webkit-linear-gradient(top left, #7a5dfc, #8a28ed);
+background: -moz-linear-gradient(top left, #645cbc, #8a28ed);
+background: linear-gradient(to bottom right, #645cbc, #8a28ed);
+}
